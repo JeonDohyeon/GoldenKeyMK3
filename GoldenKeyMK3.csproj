@@ -1,22 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <PublishSingleFile>true</PublishSingleFile>
-    <SelfContained>true</SelfContained>
-    <Version>1.4</Version>
-  </PropertyGroup>
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <PublishSingleFile>true</PublishSingleFile>
+        <SelfContained>true</SelfContained>
+        <Version>1.4</Version>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Raylib-Cs" Version="4.2.0.1" />
-    <PackageReference Include="Websocket.Client" Version="4.4.43" />
-    <PackageReference Include="YamlDotNet" Version="12.3.1" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Raylib-Cs" Version="4.2.0.1" />
+        <PackageReference Include="Websocket.Client" Version="4.4.43" />
+        <PackageReference Include="YamlDotNet" Version="12.3.1" />
+    </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Logs" />
-  </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Logs" />
+	    <Folder Include="Resources"/>
+		<Content Include="board.yml"/>
+		<Content Include="default.yml"/>
+    </ItemGroup>
 
 </Project>
