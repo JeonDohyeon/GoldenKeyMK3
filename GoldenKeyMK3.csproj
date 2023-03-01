@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
@@ -17,11 +17,7 @@
 
     <ItemGroup>
         <Folder Include="Logs" />
-	    <Folder Include="Resources"/>
-		<Content Include="board.yml"/>
-		<Content Include="default.yml"/>
-		<Content Include="license"/>
-		<Content Include="Readme.md"/>
+	    <Folder Include="Resource" />
     </ItemGroup>
 
 </Project>

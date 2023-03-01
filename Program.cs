@@ -1,5 +1,7 @@
 ﻿using GoldenKeyMK3.Script;
 using Raylib_cs;
+using System.Numerics;
+using YamlDotNet.Core;
 using static Raylib_cs.Raylib;
 
 namespace GoldenKeyMK3
@@ -14,6 +16,8 @@ namespace GoldenKeyMK3
             SetWindowState(ConfigFlags.FLAG_WINDOW_UNDECORATED);
             InitWindow(1920, 1081, "황금열쇠 MK3");
             SetTargetFPS(60);
+
+            HideCursor();
 
             var scenes = new Scenes();
 
