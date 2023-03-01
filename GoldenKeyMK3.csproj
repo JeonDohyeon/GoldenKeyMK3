@@ -20,6 +20,8 @@
 	    <Folder Include="Resources"/>
 		<Content Include="board.yml"/>
 		<Content Include="default.yml"/>
+		<Content Include="license"/>
+		<Content Include="Readme.md"/>
     </ItemGroup>
 
 </Project>
